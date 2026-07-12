@@ -5,6 +5,11 @@
 
 **Estado:** Teoría fundada (2026-07-11). Práctica: pendiente de prototipo.
 
+**Repositorio:** https://github.com/kharoldcanova/simba
+
+> Proyecto de investigación personal. No se aceptan colaboradores externos por
+> el momento. Licencia MIT (ver `LICENSE`).
+
 ---
 
 ## Qué es SIMBA
