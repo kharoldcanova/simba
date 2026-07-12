@@ -102,7 +102,19 @@ simba/
 
 ---
 
-## Requisitos (para la práctica)
+## Material de estudio (resúmenes en `notes/`)
+
+Cada paper tiene un resumen simple listo para leer cuando puedas. Orden
+sugerido:
+
+1. `paper-01-attention.md` — Attention Is All You Need (Transformer base)
+2. `paper-02-predictive-coding.md` — Predictive Coding (Friston, base biológica)
+3. `paper-03-hippocampus.md` — Hippocampus as Predictive Map (tu "gusano")
+4. `paper-04-rag.md` — Retrieval-Augmented Generation (memoria externa)
+5. `paper-05-dpr.md` — Dense Passage Retrieval (motor de búsqueda)
+6. `paper-06-switch-transformers.md` — Switch Transformers (MoE: especialistas)
+7. `paper-07-mixtral.md` — Mixtral (MoE abierto para tu PC)
+8. `paper-08-mamba-rwkv.md` — Mamba / RWKV (memoria continua = gusano real)
 
 - Python 3.11+
 - [Ollama](https://ollama.com) corriendo localmente (modelos chicos: Mistral,
