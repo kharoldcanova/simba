@@ -1,0 +1,10 @@
+# entorno
+.venv/
+__pycache__/
+*.pyc
+
+# base vectorial de chroma
+.simba/
+
+# modelos / cache locales
+models/

@@ -1,0 +1,9 @@
+SIMBA es un asistente de inteligencia artificial que funciona en hardware propio, sin enviar datos a la nube. Su arquitectura se basa en un cerebro modular: varios modelos pequeños, cada uno especializado en algo distinto, conectados por un enrutador.
+
+El módulo de memoria asociativa guarda fragmentos de texto como vectores. Cuando se hace una consulta, recupera los fragmentos más similares en lugar de memorizar todo en los pesos del modelo. Esto permite añadir conocimiento sin re-entrenar.
+
+La intuición biológica detrás de SIMBA es el hipocampo: no almacena todo, sino que construye un mapa predictivo donde cada experiencia apunta a las experiencias sucesoras. El cerebro minimiza el error de predicción, no graba pasivamente.
+
+El enrutador decide qué especialista debe responder. Si un modelo recibe una pregunta de matemáticas y no está especializado, delega a un modelo experto en matemáticas. Así se trabaja con modelos chicos, lo que reduce la latencia y el hardware necesario.
+
+Mixture of Experts es la base teórica del cerebro modular. En lugar de activar toda la red para cada token, solo se activan los expertos relevantes. Mamba y RWKV son arquitecturas con estado continuo que permiten memoria que fluye, más eficiente que la atención plana de los Transformers.
